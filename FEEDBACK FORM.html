@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Feedback Form</h1>
+      <br />
+      <form action="post">
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" placeholder="Enter Name Here" />
+        <label for="sname">Second Name :</label>
+        <input type="text" id="sname" placeholder="Enter Surename here" />
+        <br />
+        <br />
+        <input type="radio" name="radiobtn" id="123" value="Male" />Male
+        <br />
+        <input type="radio" name="radiobtn" id="123" value="Female" />Female
+        <br />
+        <br />
+        <label for="fname">email :</label>
+        <input type="text" id="email" placeholder="e-mail address" />
+        <br>
+        <br>
+        <div>
+            <label for="ta">Comment :</label>
+            <br>
+            <textarea name="textarea" id="ta" cols="80" rows="10"></textarea>
+            <br>
+            <select id="tags">
+                <option value="JUNE">June</option>
+                <option value="FEB">Feb</option>
+                <option value="MARCH">March</option>
+                <option value="APRIL">April</option>
+            </select>
+            <br>
+            <br>
+            <button>Send Feedback</button>
+            <button type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
